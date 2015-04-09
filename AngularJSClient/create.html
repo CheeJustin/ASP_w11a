@@ -1,0 +1,17 @@
+﻿<h1>{{ message }}</h1>
+<p style="color: red;">{{ createMessage }}</p>
+
+<table>
+    <tr>
+        <td>Category Name</td>
+        <td><input type="text" id="categoryName" ng-model="createForm.CategoryName" /></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td><input type="text" id="description" ng-model="createForm.Description" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button ng-click="createCategory()">Create</button></td>
+    </tr>
+</table>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html ng-app="categoryModule">
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="IndexController.js"></script>
+    <script src="CreateController.js"></script>
+    <script src="DeleteController.js"></script>
+    <script src="EditController.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a href="#/index">Main</a> | 
+        <a href="#/create">Create</a> | 
+        <a href="#/delete">Delete</a> |
+        <a href="#/edit">Edit</a>
+    </nav>
+    <div ng-view></div>
+</body>
+</html>

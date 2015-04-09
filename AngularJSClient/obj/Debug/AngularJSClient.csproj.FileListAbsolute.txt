@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\bin\AngularJSClient.dll.config
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\bin\AngularJSClient.dll
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\bin\AngularJSClient.pdb
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\obj\Debug\AngularJSClient.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\obj\Debug\AngularJSClient.dll
+C:\inetpub\wwwroot\w11a\AngularJS\AngularJSClient\obj\Debug\AngularJSClient.pdb

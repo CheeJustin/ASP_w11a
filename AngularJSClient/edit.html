@@ -1,0 +1,26 @@
+﻿<h1>{{ message }}</h1>
+<p style="color: red;">{{ deleteMessage }}</p>
+<table>
+    <tr>
+        <td>Enter ID: </td>
+        <td><input type="text" id="categoryName" ng-model="categoryID" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button ng-click="searchCategory()">Search</button></td>
+    </tr>
+</table>
+<hr/>
+<table ng-show="showSearch">
+    <tr>
+        <td><b>Category Name</b></td>
+        <td><input type="text" ng-model="editForm.CategoryName" value="{{ search.CategoryName }}" placeholder="{{ search.CategoryName }}" /></td>
+    </tr>
+    <tr>
+        <td><b>Category Description</b></td>
+        <td><input type="text" ng-model="editForm.Description" value="{{ search.Description }}" placeholder="{{ search.Description }}" /></td>
+    </tr>
+    <tr>
+        <td><button ng-click="editCategory()">Edit</button></td>
+    </tr>
+</table>

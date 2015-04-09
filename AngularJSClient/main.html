@@ -1,0 +1,22 @@
+﻿<h1>{{ message }}</h1>
+
+<button ng-click="getCategories()">Show Categories</button>
+
+<hr />
+
+<div ng-show="showCategories">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr ng-repeat="c in categoryInfo">
+            <td>{{ c.CategoryID }}</td>
+            <td>{{ c.CategoryName }}</td>
+            <td>{{ c.Description }}</td>
+        </tr>
+    </table>
+    <br/>
+    <div ng-hide="hideLoading"><b><i> Loading...</i></b></div>
+</div>

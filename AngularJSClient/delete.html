@@ -1,0 +1,30 @@
+﻿<h1>{{ message }}</h1>
+<p style="color: red;">{{ deleteMessage }}</p>
+<table>
+    <tr>
+        <td>Enter ID: </td>
+        <td><input type="text" id="categoryName" ng-model="categoryID" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button ng-click="searchCategory()">Search</button></td>
+    </tr>
+</table>
+
+<hr />
+
+<table ng-show="showSearch">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>{{ search.CategoryID }}</td>
+        <td>{{ search.CategoryName }}</td>
+        <td>{{ search.Description }}</td>
+    </tr>
+    <tr>
+        <td><button ng-click="deleteCategory()">Delete</button></td>
+    </tr>
+</table>
